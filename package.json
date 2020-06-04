@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "name": "dracula-darcula",
+  "displayName": "Dracula Darcula",
+  "description": "Theme based on dracula for code editor and darcula for workspace",
+  "publisher": "devall",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "lint": "node ./scripts/lint.js",
+    "package": "vsce package -o ./bin/dracula-darcula.vsix",
+    "vscode:prepublish": "npm run build",
+    "vsce-publish": "vsce publish"
+  },
+  "maintainers": [
+    "Alexey Elizarov <felex-ae@ya.ru>"
+  ],
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dracula",
+    "darcula",
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#3c4557",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Darcula Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./theme/dracula-darcula.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "js-yaml": "^3.13.1",
+    "prettier": "^1.19.1",
+    "vsce": "^1.74.0"
+  }
+}

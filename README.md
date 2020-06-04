@@ -10,7 +10,7 @@
 
 1. Go to `View` -> `Command Palette` or press `Ctrl+Shift+P`
 2. Then enter `Install Extension`
-3. Write `Dracula Official`
+3. Write `Dracula Darcula`
 4. Select it or press Enter to install
 
 ## Install using Git
@@ -18,19 +18,19 @@
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
 ```bash
-$ git clone https://github.com/dracula/visual-studio-code.git ~/.vscode/extensions/theme-dracula
-$ cd ~/.vscode/extensions/theme-dracula
+$ git clone https://github.com/beautyfree/vscode-theme-dracula-darcula.git ~/.vscode/extensions/theme-dracula-darcula
+$ cd ~/.vscode/extensions/theme-dracula-darcula
 $ npm install
 $ npm run build
 ```
 
 ### Activating theme
 
-Run Visual Studio Code. The Dracula Darcula Theme will be available from `File` -> `Preferences` -> `Color Theme` dropdown menu.
+Run Visual Studio Code. The `Dracula Darcula` theme will be available from `File` -> `Preferences` -> `Color Theme` dropdown menu.
 
 # Team
 
-This theme is maintained by [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
+This theme is maintained by [awesome contributors](https://github.com/beautyfree/vscode-theme-dracula-darcula/graphs/contributors).
 
 # Contributing
 
