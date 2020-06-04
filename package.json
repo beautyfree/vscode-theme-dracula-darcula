@@ -2,7 +2,7 @@
   "version": "1.0.1",
   "name": "dracula-darcula",
   "displayName": "Dracula Darcula",
-  "description": "Theme based on dracula for code editor and darcula for workspace",
+  "description": "Theme based on Dracula for code editor and Darcula for workspace",
   "publisher": "devall",
   "license": "MIT",
   "scripts": {
