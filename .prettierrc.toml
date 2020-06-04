@@ -1,0 +1,15 @@
+printWidth = 80
+singleQuote = true
+useTabs = false
+tabWidth = 2
+trailingComma = 'all'
+
+[[overrides]]
+  files = '*.js'
+  [overrides.options]
+    trailingComma = 'es5'
+
+[[overrides]]
+  files = '*.{yml,yaml}'
+  [overrides.options]
+    tabWidth = 2

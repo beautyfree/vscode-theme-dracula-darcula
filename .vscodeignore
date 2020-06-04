@@ -1,4 +1,13 @@
+.github/**
 .vscode/**
-.vscode-test/**
+bin/**
+node_modules/**
+scripts/**
+src/**
+tests/**
+.editorconfig
+.prettierrc.toml
+jsconfig.json
+known_issues.md
 .gitignore
 vsc-extension-quickstart.md
