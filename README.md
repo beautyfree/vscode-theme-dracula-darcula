@@ -1,6 +1,6 @@
 # Dracula Darcula for [Visual Studio Code](http://code.visualstudio.com)
 
-> A dark theme for [Visual Studio Code](http://code.visualstudio.com) based on Dracula and Dracula inspired by WebStorm.
+> A dark theme for [Visual Studio Code](http://code.visualstudio.com) based on Dracula and Darcula inspired by WebStorm.
 
 ![Screenshot](https://raw.githubusercontent.com/beautyfree/vscode-theme-dracula-darcula/master/screenshot.png)
 
