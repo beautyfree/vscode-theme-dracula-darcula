@@ -331,7 +331,7 @@ colors:
   statusBarItem.prominentBackground: *RED # Status Bar prominent items background color. Prominent items stand out from other Status Bar entries to indicate importance
   statusBarItem.prominentHoverBackground: *ORANGE # Status Bar prominent items background color when hovering. Prominent items stand out from other Status Bar entries to indicate importance
   statusBarItem.remoteForeground: *FG # Background color for the remote indicator on the status bar
-  statusBarItem.remoteBackground: *PURPLE # Foreground color for the remote indicator on the status bar
+  statusBarItem.remoteBackground: *BGLight # Foreground color for the remote indicator on the status bar
   statusBar.border: *BORDER
 
   # Title Bar Colors (MacOS Only)
@@ -357,6 +357,9 @@ colors:
   extensionButton.prominentForeground: *FG # Extension view button foreground color (for example Install button)
   extensionButton.prominentBackground: !alpha [*GREEN, 90] # Extension view button background color
   extensionButton.prominentHoverBackground: !alpha [*GREEN, 60] # Extension view button background hover color
+
+  extensionBadge.remoteBackground: *FG
+  extensionBadge.remoteForeground: *FG
 
   # Quick Picker
   pickerGroup.border: *PURPLE # Quick picker (Quick Open) color for grouping borders
