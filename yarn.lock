@@ -487,10 +487,10 @@ url-join@^1.1.0:
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-1.1.0.tgz#741c6c2f4596c4830d6718460920d0c92202dc78"
   integrity sha1-dBxsL0WWxIMNZxhGCSDQySIC3Hg=
 
-vsce@1.96.2:
-  version "1.96.2"
-  resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.96.2.tgz#5e955853a70e364422a1678de0a963ed098583ab"
-  integrity sha512-QM674Bs9z2mtzCoNYZpVjbU9AGzkY6hPeraCCam6m0GH0T0dv/E9G63JmBucR0vrXllGBK9Jt6sCBG1Z6fnTMg==
+vsce@1.97.0:
+  version "1.97.0"
+  resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.97.0.tgz#78490745c3ce4f18c390fc1319c0b1250095a153"
+  integrity sha512-5Rxj6qO0dN4FnzVS9G94osstx8R3r1OQP39G7WYERpoO9X+OSodVVkRhFDapPNjekfUNo+d5Qn7W1EtNQVoLCg==
   dependencies:
     azure-devops-node-api "^11.0.1"
     chalk "^2.4.2"
