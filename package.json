@@ -23,7 +23,7 @@
     "url": "https://github.com/beautyfree/vscode-theme-dracula-darcula/issues"
   },
   "engines": {
-    "vscode": "^1.45.0"
+    "vscode": "^2023.0.0"
   },
   "categories": [
     "Themes"
